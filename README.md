@@ -39,7 +39,7 @@ Not all parts are needed. See assembly instructions for details.
 ### Must haves
 - [60 position floppy edge connector](https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-5530841-8/2310823)
 - [30 position power/video edge connector](https://www.digikey.com/en/products/detail/sullins-connector-solutions/EBM15DRXH/927296)
-- [24 pin ATX power connector MiniFit Jr 44206](https://www.digikey.com/en/products/detail/molex/0442060002/3311016)
+- [24 pin ATX power connector MiniFit Jr 44206](https://www.digikey.com/en/products/detail/molex/0442060002/3311016) (Note: This also works with a 20 pin ATX power supply. The plug will only fit in one way and the voltages match up. Four pins will be left empty.)
 - [20 pin floppy header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/SBH11-PBPC-D10-ST-BK/1990065)
 - [Tact swiches](https://www.mouser.com/ProductDetail/Apem/MJTP1230?qs=ooeArD5nza9YuOFpo4pJ2Q%3D%3D) x 2
 - [2N4401 transistor](https://www.digikey.com/en/products/detail/nte-electronics-inc/2N4401/11649865)
