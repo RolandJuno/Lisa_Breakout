@@ -56,7 +56,7 @@ Not all parts are needed. See assembly instructions for details.
 - [4P4C modular jack](https://www.digikey.com/en/products/detail/assmann-wsw-components/A-2004-3-4-LP-N-R/2183632)
 - [Tact swiches](https://www.mouser.com/ProductDetail/Apem/MJTP1230?qs=ooeArD5nza9YuOFpo4pJ2Q%3D%3D) x 2
 
-### Your does not provide -5V
+### Your PSU does not provide -5V
 - [7905 -5V regulator](https://www.digikey.com/en/products/detail/onsemi/MC7905BTG/1481513) (install text facing the keyboard connectors)
 - 0.1 uF capacitors x 2
 
