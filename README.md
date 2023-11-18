@@ -16,6 +16,19 @@ Connects to the Lisa power/video and floppy edge connectors on the motherboard t
 - ATX power voltage breakout test points
 - Audio/video output block
 
+## Potential Incompatibility
+
+I initially experienced issues with the breakout board and my Lisa. It would usually boot successfully at a cold start and continue working fine. After a reboot or power cycle, it would get stuck with garbage on the screen (before it clears and POST starts).
+
+My Lisa consisted of the following:
+
+- New clone motherboard
+- New clone 2/5 IO board (with EPROM for a PROM)
+- Original rev D CPU board (possibly only use in the Lisa 2/10?) (with EPROM for a PROM)
+- Original SunRem 2MB RAM board
+
+I swapped in an orignal rev B CPU card (*usually in a Lisa 2/5) and the issue went away. Caveat emptour.
+
 ## Assembly
 
 Follow the silkscreen for which side the components are soldered onto. For instance, the two edge connectors at the bottom are on one side while the ATX power input IS ON THE OPPOSITE SIDE. If you get this wrong, you'll send voltages to the wrong places which would be bad.
@@ -67,15 +80,4 @@ Not all parts are needed. See assembly instructions for details.
 
 - The silkscreen for the 7905 regulator should be spun 180 around (text on the chip should face the keyboard connectors)
 
-## Potential Incompatibility
 
-I initially experienced issues with the breakout board and my Lisa. It would usually boot successfully at a cold start and continue working fine. After a reboot or power cycle, it would get stuck with garbage on the screen (before it clears and POST starts).
-
-My Lisa consisted of the following:
-
-- New clone motherboard
-- New clone 2/5 IO board (with EPROM for a PROM)
-- Original rev D CPU board (possibly only use in the Lisa 2/10?) (with EPROM for a PROM)
-- Original SunRem 2MB RAM board
-
-I swapped in an orignal rev B CPU card (*usually in a Lisa 2/5) and the issue went away. Caveat emptour.
