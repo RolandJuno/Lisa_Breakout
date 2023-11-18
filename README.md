@@ -1,6 +1,8 @@
 # Lisa Breakout Board
 A power, floppy, keyboard, etc. breakout board for the Apple Lisa. Only tested with the Lisa 2/5 (see details of my machine below).
 
+![Wide rectangular green citcult board with two edge connetors at the bottom, several jacks installed on either side, and an Arduino Nano Pro in the middle](https://github.com/RolandJuno/Lisa_Breakout/blob/main/Lisa%20Breakout%20Board.jpg)
+
 ## Features
 Connects to the Lisa power/video and floppy edge connectors on the motherboard to provide the following functions:
 
