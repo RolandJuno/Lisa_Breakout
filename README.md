@@ -45,7 +45,7 @@ If you use an ATX power supply that does not provide -5V (24 pins typically do n
 
 If you have a Lisa keyboard, you can omit the 4P4C telephone jack, the Arduino Pro Micro, and the two its two buttons (KB RESET and KB MODE). Install the 1/4" input jack and plug your keyboard in (while the system power is unplugged!)
 
-If you have a Mac M0110A keyboard, you can omit the 1/4" input jack. Install the 4P4C telephone jack, the Arduino Pro Micro, and the two its two buttons (KB RESET and KB MODE). I suggest installing the Arduino Pro Micro in a standard 24 pin DIP socket. The solder pads are already jumpered to defaults of using a standard Mac coil cable (not a telephone cable) and a US layout. Flash the Arduino with [Warmech's M0110 Mac Keyboard to Lisa Adapter](https://github.com/warmech/m0110-to-lisa-keyboard-adapter)
+If you have a Mac M0110A keyboard, you can omit the 1/4" input jack. Install the 4P4C telephone jack, the Arduino Pro Micro, and its two buttons (KB RESET and KB MODE). I suggest installing the Arduino Pro Micro in a standard 24 pin DIP socket. The configuration solder pads are already jumpered to defaults of using a standard Mac coil cable (not a telephone cable) and a US layout. Flash the Arduino with [Warmech's M0110 Mac Keyboard to Lisa Adapter](https://github.com/warmech/m0110-to-lisa-keyboard-adapter)
 
 ## BOM
 
