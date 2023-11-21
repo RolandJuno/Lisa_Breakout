@@ -37,15 +37,20 @@ Follow the silkscreen for which side the components are soldered onto. For insta
 
 ### -5V Rail
 
-If you use an ATX power supply that provies -5V (20 pin variety typically do), you can opt to NOT install the 7905 and the two caps on either side. Jumper the right two pins of JP1 (ATX).
+Choose one of the following power sources. Don't jumper both power sources.
 
-If you use an ATX power supply that does not provide -5V (24 pins typically do not), you should install the 7905 regulator and the two caps on either side. Jumper the left two pins of JP1 (7905). NOTE: The silkscreen for the 7905 regulator should be spun 180 around (text on the chip should face the keyboard connectors)
+- If you use an ATX power supply that provies -5V (20 pin variety typically do), you can opt to NOT install the 7905 and the two caps on either side. Jumper the right two pins of JP1 (ATX).
+
+- If you use an ATX power supply that does not provide -5V (24 pins typically do not), you should install the 7905 regulator and the two caps on either side. Jumper the left two pins of JP1 (7905). NOTE: The silkscreen for the 7905 regulator should be spun 180 around (text on the chip should face the keyboard connectors)
 
 ### Keyboard
 
-If you have a Lisa keyboard, you can omit the 4P4C telephone jack, the Arduino Pro Micro, and the two its two buttons (KB RESET and KB MODE). Install the 1/4" input jack and plug your keyboard in (while the system power is unplugged!)
+Choose one of the following keyboard types. Don't plug in a Lisa keyboard when you're using the Mac keyboard converter.
 
-If you have a Mac M0110A keyboard, you can omit the 1/4" input jack. Install the 4P4C telephone jack, the Arduino Pro Micro, and its two buttons (KB RESET and KB MODE). I suggest installing the Arduino Pro Micro in a standard 24 pin DIP socket. The configuration solder pads are already jumpered to defaults of using a standard Mac coil cable (not a telephone cable) and a US layout. Flash the Arduino with [Warmech's M0110 Mac Keyboard to Lisa Adapter](https://github.com/warmech/m0110-to-lisa-keyboard-adapter)
+- If you have a Lisa keyboard, you can omit the 4P4C telephone jack, the Arduino Pro Micro, and the two its two buttons (KB RESET and KB MODE). Install the 1/4" input jack and plug your keyboard in (while the system power is unplugged!)
+
+- If you have a Mac M0110A keyboard, you can omit the 1/4" input jack. Install the 4P4C telephone jack, the Arduino Pro Micro, and its two buttons (KB RESET and KB MODE). I suggest installing the Arduino Pro Micro in a standard 24 pin DIP socket. The configuration solder pads are already jumpered to defaults of using a standard Mac coil cable (not a telephone cable) and a US layout. Flash the Arduino with [Warmech's M0110 Mac Keyboard to Lisa Adapter](https://github.com/warmech/m0110-to-lisa-keyboard-adapter)
+
 
 ## BOM
 
