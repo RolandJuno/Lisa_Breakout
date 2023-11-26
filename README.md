@@ -86,5 +86,5 @@ Not all parts are needed. See assembly instructions for details.
 ## Errata
 
 - The silkscreen for the 7905 regulator should be spun 180 around (text on the chip should face the keyboard connectors)
-
+- GND and AGND are not connected and should be. This is easily fixed by soldering a short jumper between AGND and GND on the Audio_Video 2x3 jumper block.
 
