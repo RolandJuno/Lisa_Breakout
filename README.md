@@ -1,5 +1,9 @@
 # Lisa Breakout Board
-A power, floppy, keyboard, etc. breakout board for the Apple Lisa. Only tested with the Lisa 2/5 (see details of my machine below).
+A power, floppy, keyboard, etc. breakout board for the Apple Lisa. You can use this board in lieu of having an actual Lisa case which provides the display, PSU, floppy drive, etc. This allows you to run the card cage outside of a Lisa with a standard ATX power supply.
+
+For a display, I use the video out connector on the motherboard a with RGB2HDMI adapter.
+
+This has only been tested with the Lisa 2/5 (see details of my machine below).
 
 ![Wide rectangular green citcult board with two edge connetors at the bottom, several jacks installed on either side, and an Arduino Nano Pro in the middle](https://github.com/RolandJuno/Lisa_Breakout/blob/main/Lisa%20Breakout%20Board.jpg)
 
@@ -14,9 +18,9 @@ Connects to the Lisa power/video and floppy edge connectors on the motherboard t
 - Selectable -5V source for 7905 or 20-pin ATX connector
 - Lisa keyboard input jack
 - Mac M0110/A keyboard input jack and on-board conversion to Lisa keyboard using [Warmech's M0110 Mac Keyboard to Lisa Adapter](https://github.com/warmech/m0110-to-lisa-keyboard-adapter)
-- Sony 800K floppy drive connector (front and back of card ports)
+- Sony 800K floppy drive connector (front and back of card ports) [Note: only tested with a FloppyEmu]
 - ATX power voltage breakout test points
-- Audio/video output block
+- Audio/video output block for testing/troubleshooting
 
 ## Potential Incompatibility
 
