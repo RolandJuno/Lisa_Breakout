@@ -3,7 +3,7 @@ A power, floppy, keyboard, etc. breakout board for the Apple Lisa. You can use t
 
 For a display, I use the video out connector on the motherboard a with RGB2HDMI adapter.
 
-This has only been tested with the Lisa 2/5 (see details of my machine below).
+This is for use with a Lisa 2/5 motherboard only (the one with the external parallel port connector). A 2/10 motherboard is different and uses a different card edge connector.
 
 ![Wide rectangular green citcult board with two edge connetors at the bottom, several jacks installed on either side, and an Arduino Nano Pro in the middle](https://github.com/RolandJuno/Lisa_Breakout/blob/main/Lisa%20Breakout%20Board.jpg)
 
