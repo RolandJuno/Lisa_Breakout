@@ -51,7 +51,7 @@ Choose one of the following power sources. Don't jumper both power sources.
 
 Choose one of the following keyboard types. Don't plug in a Lisa keyboard when you're using the Mac keyboard converter.
 
-- If you have a Lisa keyboard, you can omit the 4P4C telephone jack, the Arduino Pro Micro, and the two its two buttons (KB RESET and KB MODE). Install the 1/4" input jack and plug your keyboard in (while the system power is unplugged!)
+- If you have a Lisa keyboard, you can omit the 4P4C telephone jack, the Arduino Pro Micro, and the two its two buttons (KB RESET and KB MODE). Install the 1/4" input jack on either side of the board (the jack opening facing away from the card in both cases). Plug in or unplug your Lisa keyboard only while the system power is off and unplugged!
 
 - If you have a Mac M0110A keyboard, you can omit the 1/4" input jack. Install the 4P4C telephone jack, the Arduino Pro Micro, and its two buttons (KB RESET and KB MODE). I suggest installing the Arduino Pro Micro in a standard 24 pin DIP socket. The configuration solder pads are already jumpered to defaults of using a standard Mac coil cable (not a telephone cable) and a US layout. Flash the Arduino with my fork of [Warmech's M0110 Mac Keyboard to Lisa Adapter](https://github.com/RolandJuno/m0110-to-lisa-keyboard-adapter) which addresses a couple of issues I ran into like the T and Y keys being swapped and incorrect pin assignments.
 
@@ -64,13 +64,15 @@ Not all parts are needed. See assembly instructions for details.
 - [60 position floppy edge connector](https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-5530841-8/2310823)
 - [30 position power/video edge connector](https://www.digikey.com/en/products/detail/sullins-connector-solutions/EBM15DRXH/927296)
 - [24 pin ATX power connector MiniFit Jr 44206](https://www.digikey.com/en/products/detail/molex/0442060002/3311016) (Note: This also works with a 20 pin ATX power supply. The plug will only fit in one way and the voltages match up. Four pins will be left empty.)
-- [20 pin floppy header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/SBH11-PBPC-D10-ST-BK/1990065)
 - [Tact swiches](https://www.mouser.com/ProductDetail/Apem/MJTP1230?qs=ooeArD5nza9YuOFpo4pJ2Q%3D%3D) x 2
 - [2N4401 transistor](https://www.digikey.com/en/products/detail/nte-electronics-inc/2N4401/11649865)
 - 40K Ohm resistor (for soft power-on)
 - 3.3K Ohm resistor (for keyboard port pull-down)
 - 150 Ohm resistor (for LED)
 - LED of your choice (I used red)
+
+### You have a FloppyEMU
+- [20 pin floppy header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/SBH11-PBPC-D10-ST-BK/1990065)
 
 ### You have a Lisa keyboard
 - [1/4" stereo headphone jack](https://amzn.to/3QI4mLv)
